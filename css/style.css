@@ -1,0 +1,30 @@
+h1 {
+    font-size: 60px;
+    color: #a9294f;
+    background-color: white;
+    text-align: center;
+}
+
+body {
+    background-color: #008891;
+}
+
+h2 {
+    font-size: 40px;
+    font-style: oblique;
+    color:#e5707e;
+    border: dotted white 25px;
+}
+
+p {
+    font-size: 20px;
+    color: white;
+}
+
+img {
+    position: fixed;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
