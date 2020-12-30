@@ -6,14 +6,14 @@ alert("let's start the quiz!")
 var totalScore = 0
 
 function questOne() {
-    console.log('alaa')
     var statementOne = prompt("I graduated university in 2017. (yes/no)")
+    console.log(statementOne);
     if (statementOne.toLowerCase() === "no") {
-        console.log("You are correct!")
+       // console.log("You are correct!")
         alert("You are correct!");
         totalScore++;
     } else if (statementOne.toLowerCase() === "yes") {
-        console.log("You are incorrect :(")
+      //  console.log("You are incorrect :(")
         alert("You are incorrect :(")
     } else {
         alert("Invalid Entry")
@@ -111,10 +111,10 @@ function questSix() {
     }
 }
 questSix();
-var correct = false;s
+var correct = false
 var myFriends = ["mary", "farah", "suzan", "taima", "noor"]
 function questSeven() {
-    for (var i = 0; i < 5; i++) {
+    for (var i = 0; i < 6; i++) {
         var statementSeven = prompt("Guess one of my friends' name!").toLowerCase();
         console.log(statementSeven);
         for (let index = 0; index < myFriends.length; index++) {
@@ -126,9 +126,7 @@ function questSeven() {
                 break;
             
             } 
-            //else {
-            //     alert("You are incorrect.")
-            // }
+           
         }
 if(correct === true){
     break;
