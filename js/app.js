@@ -111,7 +111,7 @@ function questSix() {
     }
 }
 questSix();
-var correct = false;
+var correct = false;s
 var myFriends = ["mary", "farah", "suzan", "taima", "noor"]
 function questSeven() {
     for (var i = 0; i < 5; i++) {
