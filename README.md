@@ -10,5 +10,5 @@ nested in it.
 * I aslo added a variable that calculates the user's total score in the quiz. 
  
  ## Driver : Alaa dib
- # Navigator : Tala jallad
+ ## Navigator : Tala jallad
   1) creating a  new branch 
