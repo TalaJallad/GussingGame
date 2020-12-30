@@ -12,3 +12,4 @@ nested in it.
  ## Driver : Alaa dib
  ## Navigator : Tala jallad
   1) creating a  new branch 
+  2) add function into 1,2,3,4,5,6 Questions

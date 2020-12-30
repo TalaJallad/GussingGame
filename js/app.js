@@ -75,6 +75,7 @@ if (statement5.toLowerCase() === "yes") {
 
 var statement6 = prompt("Guess how many movies I have watched! You have 4 guesses! (Enter a number)");
 console.log(statement6)
+function ques6 () {
 for (var i = 1; i < 4; i++) {
     if (statement6 === "70") {
         alert("You are correct!");
@@ -89,6 +90,7 @@ for (var i = 1; i < 4; i++) {
         statement6 = prompt("Guess how many movies I have watched! (Enter a number)");
         console.log(statement6);
     }
+}
 }
 
 if (i == 4) {
@@ -139,3 +141,8 @@ alert("Thank you for taking the quiz " + username + "!")
 
 ques1();
 ques2();
+ques3();
+ques4();
+ques5();
+ques6();
+
