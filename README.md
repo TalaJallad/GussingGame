@@ -12,4 +12,6 @@ nested in it.
  ## Driver : Alaa dib
  ## Navigator : Tala jallad
   1) creating a  new branch 
-  2) add function into 1,2,3,4,5,6 Questions
+  2) add function into 1,2,3,4,5,6,7 Questions
+  3) we nestead for statments in question 7
+  4) rename the var 
