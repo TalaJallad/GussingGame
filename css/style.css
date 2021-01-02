@@ -1,43 +1,48 @@
-h1 {
-    font-size: 70px;
-    color: black;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+body { background-image: url("https://wallpaperaccess.com/full/84249.jpg");
 }
 
-body {
-    background-color: #008891;
-    overflow: scroll;
-    padding-bottom: 10px;
-    margin: 20px 20px 20px 20px;
-}
-p {
-    font-size: 18px;
-    color: white;
+span {
+    display: block;
+    width: 20%;
+    margin: auto;
+    background-color: thistle;
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+    box-shadow: 2px 4px #00587a;
+    
 }
 
 h2 {
-    font-size: 30px;
-    color:#e5707e;
-    border:5px dotted green;
-    margin: 20 20;
+    font-weight: bold;
+    color: black;
 }
 
-header {
-    text-align: center;
-}
-ul {
-    list-style:disc;
-    list-style-position: inside;
-    font-size: 18px;
-    color: white;
+ ul li {
+    list-style-type: disc;
+    list-style-position:inside;
+    text-justify: auto;
+
 }
 
-ol {
+ol li {
     list-style-type:decimal;
     list-style-position: inside;
-    font-size: 18px;
-    color: white;
+}
+footer {
+    text-align: center;
+    font-style: italic;
+    margin: 5px;  
+    margin-top: 20px; 
+    color:  white; 
 }
 
+h2:hover {
+    color: white;
+}
+a{
+    color:white;
+}
+a:hover {
+    color: #00587a;
+}
